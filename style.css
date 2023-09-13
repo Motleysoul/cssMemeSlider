@@ -1,0 +1,21 @@
+.body-wrapper{
+}
+.page-wrapper{
+    width: 400px;
+    margin: 0 auto;
+}
+.page-title{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.item1, .item2, .item3, .item4{
+    display: none;
+    width: 350px;
+}
+.pagination-item1:checked ~ .item1 {
+    display: block;
+}
+.pagination-item2:checked ~ .item2 {
+    display: block;
+}
