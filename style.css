@@ -9,6 +9,9 @@
     margin: 0;
     padding: 0;
 }
+.pagination-item{
+    display: none;
+}
 .item1, .item2, .item3, .item4{
     display: none;
     width: 350px;
@@ -18,4 +21,27 @@
 }
 .pagination-item2:checked ~ .item2 {
     display: block;
+}
+.pagination-item3:checked ~ .item3 {
+    display: block;
+}
+.pagination-item4:checked ~ .item4 {
+    display: block;
+}
+.label {
+    background-color: blue;
+    cursor: pointer;
+	display: inline-block;
+	height: 15px;
+	margin: 25px 12px 0 16px;
+	width: 15px;
+	border-radius: 50%;
+}
+.label-point{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: white;
+    margin-top: 3px;
+    margin-left: 3px;
 }
