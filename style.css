@@ -49,3 +49,33 @@
     margin-top: 3.5px;
     margin-left: 3.5px;
 }
+.label:hover{
+    background-color: brown;
+}
+.label-point:hover {
+    background-color: brown;
+}
+#item1:checked ~ .pagination > .label1 {
+    background-color: brown;
+}
+#item1:checked ~ .pagination > .label1 > .label-point {
+    background-color: brown;
+}
+#item2:checked ~ .pagination > .label2 {
+    background-color: brown;
+}
+#item2:checked ~ .pagination > .label2 > .label-point {
+    background-color: brown;
+}
+#item3:checked ~ .pagination > .label3 {
+    background-color: brown;
+}
+#item3:checked ~ .pagination > .label3 > .label-point {
+    background-color: brown;
+}
+#item4:checked ~ .pagination > .label4 {
+    background-color: brown;
+}
+#item4:checked ~ .pagination > .label4 > .label-point {
+    background-color: brown;
+}
